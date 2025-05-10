@@ -85,36 +85,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 01 00 00 00
 # 
-name: ChannelUp
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 12 00 00 00
-# 
-name: ChannelDown
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 10 00 00 00
-# 
-name: Last~Channel
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 13 00 00 00
-# 
-name: TVGuide
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 4F 00 00 00
-# 
-name: TVGuideFull
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 6B 00 00 00
-# 
 name: HDMI1
 type: parsed
 protocol: Samsung32
@@ -133,59 +103,11 @@ protocol: Samsung32
 address: 07 00 00 00
 command: C2 00 00 00
 # 
-name: Netflix
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: F3 00 00 00
-# 
-name: Hulu
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: BB 00 00 00
-# 
-name: Youtube
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: FA 00 00 00
-# 
 name: PictureMode
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 28 00 00 00
-# 
-name: Ambient Mode
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: F6 00 00 00
-# 
-name: NumPad Menu
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 9C 00 00 00
-# 
-name: Internet
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 37 00 00 00
-# 
-name: Search
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 73 00 00 00
-# 
-name: VoiceAssist
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: A0 00 00 00
 # 
 name: RemoteAccess
 type: parsed
@@ -204,13 +126,7 @@ type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: D1 00 00 00
-# 
-name: Prime Video
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: F4 00 00 00
-# 
+#
 name: TVGuideShort
 type: parsed
 protocol: Samsung32
