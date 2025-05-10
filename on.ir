@@ -1,6 +1,23 @@
-name: PowerOn
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 99 00 00 00
+#include <IRremoteESP8266.h>
+#include <IRsend.h>
+
+const uint16_t kIrLedPin = 4; // Use GPIO 4, change if needed
+IRsend irsend(kIrLedPin);
+
+void setup() {
+  irsend.begin();
+  Serial.begin(115200);
+
+  // Send the Samsung PowerOn code three times
+  for (int i = 0; i < 3; i++) {
+    irsend.sendSamsung(0xE0E09966, 32); // Samsung PowerOn IR code
+    delay(100); // Wait 100 ms
+  }
+
+  Serial.println("Sent PowerOn command 3 times");
+}
+
+void loop() {
+  // Do nothing
+}
 
