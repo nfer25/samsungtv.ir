@@ -1,5 +1,30 @@
-name: Power
+name: PowerOn
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
-command: 02 00 00 00
+command: 99 00 00 00
+
+name: PowerOn
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 99 00 00 00
+
+name: PowerOn
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 99 00 00 00
+
+name: PowerOn
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 99 00 00 00
+
+name: PowerOn
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 99 00 00 00
+
